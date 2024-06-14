@@ -1,0 +1,21 @@
+body{
+    background-color: hwb(0 35% 63%);
+}
+h3{
+    color: black;
+    font-family: monospace;
+}
+p{
+    font-size: 26px;
+    color: black;
+}
+li{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+#Muestras{
+    width: 120px;
+    height: 120px; 
+    border-radius: 10px;
+}

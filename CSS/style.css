@@ -1,0 +1,358 @@
+
+
+@media(min-width:1000px){
+  body{
+    background-color: hsla(0, 8%, 16%, 0.624);
+}
+h1{color: hwb(246 4% 25% / 0.582);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 515px;
+}
+h3{color: #881d1d;
+  font-weight: 500;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 29px;
+  margin-top: 0px;
+}
+p{font-weight: 500;
+  font-size: 26px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#Logo{
+      margin: 45px 100px 0px 485px;
+      border-radius: 60px;
+      width: 340px;
+      position: absolute;
+    }
+header{
+    height: 340px;
+    background-color: #65299c;
+    color: hsl(208, 100%, 31%);
+    font-size: 21px;
+}
+li{
+    color: hsl(0, 93%, 11%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.Card{
+  width: 440px;
+  height: 400px;
+background-color: white;
+color: black;
+font-family: serif;
+text-align: center;
+}
+.Card:hover{
+  border: 3px hsl(271, 100%, 31%) solid;
+}
+#Camisetas{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Accesorios{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Pantalones{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+ 
+}
+#Boton{
+  font-size: 23px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #dcdcdcec;
+  width: 100%;
+  background-color: black;
+  height: 28%;
+  
+}
+.ImgCard{
+  width: 400px;
+  height: 450px;
+}
+.ContenedorP{
+ display: flex;
+ justify-content: space-around;
+}
+footer{
+  background-color: #211919;
+  color: white;
+}
+.InfoFooter{
+  width: 25%;
+  text-align: center;
+  border: 3px white solid;
+
+}
+.InfoFooter:hover{
+  border: 3px purple solid;
+}
+.ContenedorFooter{
+  display: flex;
+  justify-content: center;
+}
+#Contactos{
+  font-size: 17px;
+  font-family: monospace;
+}
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Creador{
+  font-size: 25px;
+  font-family: monospace;
+}
+}
+@media(max-width:999px){
+  body{
+    background-color: hwb(142 0% 0% / 0.624);
+}
+h1{color: hwb(246 4% 25% / 0.582);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 375px;
+}
+h3{color: #881d1d;
+  font-weight: 500;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
+  margin-top: 0px;
+}
+p{font-weight: 500;
+  font-size: 24px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#Logo{
+      margin: 35px 100px 0px 325px;
+      border-radius: 60px;
+      width: 325px;
+      position: absolute;
+    }
+header{
+    height: 340px;
+    background-color: #65299c;
+    color: hsl(208, 100%, 31%);
+}
+li{
+    color: hsl(0, 93%, 11%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+.Card{
+  width: 450px;
+  height: 420px;
+background-color: white;
+color: black;
+font-family: serif;
+text-align: center;
+}
+.Card:hover{
+  border: 3px hsl(271, 100%, 31%) solid;
+}
+#Camisetas{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Accesorios{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Pantalones{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+ 
+}
+#Boton{
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #dcdcdcec;
+  width: 100%;
+  background-color: black;
+  height: 25%;
+}
+.ImgCard{
+  width: 400px;
+  height: 450px;
+}
+.ContenedorP{
+ display: grid;
+ align-items: center;
+ justify-content: center;
+}
+footer{
+  background-color: #211919;
+  color: white;  
+}
+.InfoFooter{
+  text-align: center;
+  border: 3px white solid;
+}
+.InfoFooter:hover{
+  border: 3px purple solid;
+}
+.ContenedorFooter{
+  display: flex;
+  justify-content: center;
+}
+#Contactos{
+  font-size: 17px;
+  font-family: monospace;
+}
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Creador{
+  font-size: 25px;
+  font-family: monospace;
+}
+}
+
+@media(max-width:500px){
+  body{
+    background-color: hwb(159 0% 3% / 0.329);
+}
+h1{color: hwb(246 4% 25% / 0.582);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 160px;
+}
+h3{color: #881d1d;
+  font-weight: 500;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+  margin-top: 0px;
+}
+p{font-weight: 500;
+  font-size: 21px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#Logo{
+      margin: 35px 100px 0px 100px;
+      border-radius: 60px;
+      width: 320px;
+      position: absolute;
+    }
+header{
+    height: 340px;
+    background-color: #65299c;
+    color: hsl(208, 100%, 31%);
+}
+li{
+    color: hsl(0, 93%, 11%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.Card{
+  width: 420px;
+  height: 400px;
+background-color: white;
+color: black;
+font-family: serif;
+text-align: center;
+}
+.Card:hover{
+  border: 3px hsl(271, 100%, 31%) solid;
+}
+#Camisetas{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Accesorios{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+}
+#Pantalones{
+  background-color: forestgreen;
+  color: hsl(0, 93%, 11%);
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 3px black solid;
+ 
+}
+#Boton{
+  font-size: 23px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #dcdcdcec;
+  width: 100%;
+  background-color: black;
+  height: 25%;
+  
+}
+.ImgCard{
+  width: 400px;
+  height: 450px;
+}
+.ContenedorP{
+ display: grid;
+ align-items: center;
+}
+footer{
+  background-color: #211919;
+  color: white;
+  
+}
+.InfoFooter{
+  width: 100%;
+  text-align: center;
+  border: 3px white solid;
+
+}
+.InfoFooter:hover{
+  border: 3px purple solid;
+}
+.ContenedorFooter{
+  display: grid;
+  align-items: center;
+}
+#Contactos{
+  font-size: 17px;
+  font-family: monospace;
+}
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Creador{
+  font-size: 25px;
+  font-family: monospace;
+}
+}
+
